@@ -1,0 +1,25 @@
+/* CSS Document */
+.evernote-tour {
+    width: 100%;
+}
+.evernote-tour .tour-container {
+    border-bottom: 1px solid #EBEBEB;
+    margin: 8px 0;
+}
+.evernote-tour .tour-container.last {
+    border: medium none;
+    margin-right: 0;
+}
+
+.evernote-tour .tour1, .evernote-tour .tour2, .evernote-tour .tour3 {
+    background-repeat: no-repeat;
+    border: 4px solid #FFFFFF;
+    min-height: 64px;
+    padding: 0 0 0 68px;
+}
+.evernote-tour .tour1 {
+    background-image: url("/redesign/modules/Tour/evernote-tour1@2x.png");
+}
+.evernote-tour h4 {
+    font-weight: bold;
+}

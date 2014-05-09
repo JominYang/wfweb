@@ -1,0 +1,39 @@
+apply plugin: 'jetty'
+apply plugin: 'maven'
+apply plugin: 'java'    
+apply plugin: "war"
+apply plugin: "eclipse"
+apply plugin: 'eclipse-wtp'
+
+sourceCompatibility = 1.5
+version = '1.0'
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Quickstart', 'Implementation-Version': version
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'javax.servlet:servlet-api:3.0-alpha-1',
+    	'jstl:jstl:1.2',
+    	'javax.servlet.jsp:jsp-api:2.2.1-b03',
+    	'mysql:mysql-connector-java:5.1.30',
+    	'net.sf.json-lib:json-lib:0.9'
+    testCompile 'junit:junit:4.+'
+}
+
+test {
+    systemProperties 'property': 'value'
+}
+
+uploadArchives {
+    repositories {
+       flatDir {
+           dirs 'repos'
+       }
+    }
+}

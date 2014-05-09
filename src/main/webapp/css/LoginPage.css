@@ -1,0 +1,25 @@
+/* CSS Document */
+.LoginPage .page-header {
+    margin-bottom: 10px;
+}
+.LoginPage .page-intro {
+    color: #747474;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 16px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-overflow: clip;
+    text-shadow: none;
+    text-transform: none;
+}
+.LoginPage .column11.first {
+    margin-right: 26px;
+	float:left;
+}
+

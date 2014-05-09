@@ -1,0 +1,339 @@
+/* CSS Document */
+body{
+background-color:#EBEBEB
+}
+::selection {
+background:#569720;
+color:#fff;}
+
+#container-boundingbox.wrapper {
+    margin: 20px auto 0;
+    width: 1000px;
+}
+#container-boundingbox.wrapper-menu {
+    margin: 32px auto 0;
+    width: 896px;
+}
+
+#container.wrapper {
+    background-color: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    padding:20px;
+    position: relative;
+    width: 960px;
+}
+
+/*page-header*/
+.page-header {
+    margin-bottom: 16px;
+}
+.page-header h1 {
+    border-bottom: 1px solid #BDBDBD;
+    color: #3B3B3B;
+    font-family: 'caecilia-light',helvetica,arial,sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 28px;
+    margin-bottom: 10px;
+    padding-bottom: 12px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-overflow: clip;
+    text-shadow: none;
+    text-transform: none;
+}
+
+.column11 {
+    display: inline-block;
+    vertical-align: top;
+    width: 352px;
+}
+.callout-box {
+    background-color: #F5F5F5;
+    border: 1px solid #E4E4E4;
+    min-width: 200px;
+    padding-left:16px;
+	padding-right:16px;
+	padding-top:8px;
+	padding-bottom:24px;
+}
+.shadow {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: 100% auto;
+    border: 0 none;
+    display: block;
+    height: 11px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    width: 1000px;
+}
+p {
+    color: #3B3B3B;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-overflow: clip;
+    text-shadow: none;
+    text-transform: none;
+}
+a, a:link, a:hover, a:active, a:visited {
+    color: #4A8DB8;
+    cursor: pointer;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-overflow: clip;
+    text-shadow: none;
+    text-transform: none;
+}
+label {
+    color: #747474;
+    cursor: default;
+    display: block;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 18px;
+    margin-bottom: 3px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-overflow: clip;
+    text-shadow: none;
+    text-transform: none;
+}
+input[type="text"] {
+}
+input[type="text"], textarea, input[type="password"] {
+    border: 1px solid #CACACA;
+    border-radius: 0 0 0 0;
+    color: #3B3B3B;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+	margin:0 0 16px;
+    height: auto;
+    line-height: 18px;
+    padding: 4px 8px;
+    width: 182px;
+}
+
+.checkbox-container {
+    display: block;
+    margin-bottom: 12px;
+}
+.checkbox-container .checkbox, .checkbox-container .checkbox-text, .checkbox-container input[type="checkbox"], .checkbox-container label {
+    display: inline;
+    margin: 2px 8px 0 0;
+}
+.checkbox-container .checkbox, .checkbox-container .checkbox-text, .checkbox-container input[type="checkbox"], .checkbox-container label {
+    display: inline;
+    margin: 2px 8px 0 0;
+}
+input.super-emphasize[type="submit"], input.super-emphasize[type="button"], .general-button.super-emphasize, a.general-button.super-emphasize {
+    -moz-user-select: none;
+    background-color: #34bbee;
+    border: 1px solid #24BBEE;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 0 #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    height: auto;
+    line-height: 18px;
+    margin: 0;
+    min-width: 100px;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0;
+    text-overflow: clip;
+    text-shadow: 0 1px 2px #2E7044;
+    text-transform: none;
+    width: auto;
+}
+input.super-emphasize[type="submit"]:hover, input.super-emphasize[type="button"]:hover, .general-button.super-emphasize:hover, a.general-button.super-emphasize:hover {
+    background-color: #2086d1;
+    background-image: -moz-linear-gradient(center top , #1c86d1, #2086d1);
+    background-repeat: repeat-x;
+    border: 1px solid #3086d1;
+    color: #FFFFFF;
+}
+.footer {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 0 auto 10px;
+    padding: 0;
+    text-align: center;
+    width: 736px;
+}
+.footer .footer-entry {
+    border-right: 1px solid #ABABAB;
+    color: #4db749;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0;
+    text-overflow: clip;
+    text-shadow: none;
+    text-transform: none;
+}
+.footer .footer-entry.last {
+    border: 0 none;
+}
+.footer .footer-entry:hover {
+	color:#e96050;
+}
+.footer .footer-entry.last:hover {
+	color: #4db749;
+}
+.left {
+    float: left;
+}
+
+#left-main {
+	width:600px;
+	height:460px;
+	background-color:#00FF00;
+	float:left;
+	margin-right:8px;
+}
+
+#logo-container {
+	width:1000px;
+	margin:auto;
+}
+#brand {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1;
+    margin-left: -20px;
+    padding: 8px 20px 12px;
+}
+#navbar-form {
+	margin-bottom: 0;
+    margin-top: 7px;
+    position: relative;
+	font-size: 13px;
+    line-height: 18px;
+}
+#navbar-input {
+margin-left:10px;
+	border-radius: 5px 5px 5px 5px;
+    margin-bottom: 0;
+	width:80px;
+	float:left;
+	
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+	
+	-moz-transition: none 0s ease 0s;
+    background-color: #CCFFFF;
+    border: 1px solid #0033FF;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+#login-submit {
+	margin-left: 10px;
+	margin-top:4px;
+	float:right;
+}
+#login-submit a {
+	color:#626262;
+	font-size:13px;
+}
+#login-submit a:hover {
+	color:#ffffff;
+}
+
+
+
+h3 {
+    border-bottom: 1px solid #BDBDBD;
+    color: #3B3B3B;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 32px;
+    margin-bottom: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-overflow: clip;
+    text-shadow: none;
+    text-transform: none;
+}
+
+.MyForm {
+	background-color: F5F5F5;
+	padding: 10px 20px 20px 20px;
+}
+.MyForm .form-box input[type="text"], .MyForm .callout-box textarea, .MyForm .callout-box input[type="password"] {
+    font-size: 18px;
+    line-height: 18px;
+    width: 94%;
+}
+
+.MyForm .form-box .theader {
+    color: #3B3B3B;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    padding:0 10px 16px 26px;
+}
+select {
+	height: 26px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.calendarBox input {
+	margin-bottom: 0px;
+	font-size: 11px;
+}

@@ -1,0 +1,19 @@
+.tableForm {
+	
+}
+
+.tableForm th {
+	text-align: right;
+}
+
+.tableForm td input {
+	width: 300px;
+	text-align: left;
+}
+.tableForm td {
+	background: #E0ECFF;
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 12px;
+	cellpadding: 5px;
+	width: 100PX;
+}

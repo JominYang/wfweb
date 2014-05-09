@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mvc-config>
+	<form-beans>
+	        <!-- 添加队员 -->
+	      <form-bean name="MemberForm" type="com.wfcsu.wfweb.vo.MemberVo"/>
+	        <!-- 添加加班-->
+	      <form-bean name="addExtraWorkForm" type="com.wfcsu.wfweb.vo.ExtraWorkVo"/>
+	      <!-- 添加出勤单-->
+	      <form-bean name="addAttendanceForm" type="com.wfcsu.wfweb.vo.AttendanceVo"/>
+	      <!-- 修改出勤单 -->
+	      <form-bean name="attendance_editForm" type="com.wfcsu.wfweb.vo.AttendanceVo"/>
+	</form-beans>
+	
+	  <action-mapping>
+	    <!--添加队员 -->
+		<action path="admin" type="com.wfcsu.wfweb.action.impl.AdminAction" 
+			name="MemberForm" parameter="method">
+	  </action>
+	</action-mapping>
+   <action-mapping>
+	    <!-- 出勤单 -->
+		<action path="attendance" type="com.wfcsu.wfweb.action.impl.AttendanceAction" 
+			name="addAttendanceForm" parameter="method">
+			<forward name="online" path="error.jsp" redirect="false" />
+	  	</action>
+	</action-mapping>
+
+   <action-mapping>
+	    <!-- Login -->
+		<action path="login" type="com.wfcsu.wfweb.action.impl.LoginAction" 
+			name="" parameter="method">
+		<forward name="admin" path="admin/main.jsp" redirect="true"/>
+		<forward name="member" path="member/main.jsp" redirect="true"/>
+		<forward name="error" path="error.jsp" redirect="false" />
+		<forward name="logout" path="../index.jsp" redirect="true" />	
+	  </action>
+	</action-mapping>
+	
+	   <action-mapping>
+	    <!--添加队员 -->
+		<action path="member" type="com.wfcsu.wfweb.action.impl.AdminAction" 
+			name="MemberForm" parameter="method">
+			<forward name="success" path="addMember.jsp" redirect="true" />	
+		    <forward name="error" path="main.jsp" redirect="false" />
+		    <forward name="member" path="/admin/memberManager.jsp"></forward>	
+		    	
+	  </action>
+	</action-mapping>
+	
+	<action-mapping>
+	    <!-- 添加加班 -->
+	    <action path="extraWork" type="com.wfcsu.wfweb.action.impl.ExtraWorkAction"
+	            name="addExtraWorkForm" parameter="method">
+	        <forward name="success" path="addExtraWork.jsp" redirect="true"></forward>
+	        <forward name="error" path="main.jsp" redirect="false"></forward>
+	    </action>
+	</action-mapping>
+	
+	<action-mapping>
+	    <!-- 队员 -->
+	    <action path="memberX" type="com.wfcsu.wfweb.action.impl.MemberAction"
+	            name="MemberForm" parameter="method">
+	    </action>
+	</action-mapping>
+	
+	
+	
+		<action-mapping>
+	    <!-- 直接审核加班 -->
+	    <action path="extraworkCheck" type="com.wfcsu.wfweb.action.impl.ExtraWorkAction"
+	            name="" parameter="method">
+	    </action>
+	</action-mapping>
+	
+</mvc-config>

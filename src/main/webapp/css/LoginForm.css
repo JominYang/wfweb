@@ -1,0 +1,51 @@
+/* CSS Document */
+.LoginForm .callout-box h3 {
+	border-bottom: 1px solid #BDBDBD;
+    color: #3B3B3B;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 32px;
+    margin-bottom: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-overflow: clip;
+    text-shadow: none;
+    text-transform: none;
+}
+.LoginForm .callout-box span.switch {
+    color: #747474;
+    float: right;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-overflow: clip;
+    text-shadow: none;
+    text-transform: none;
+}
+.LoginForm .callout-box #login_form {
+    margin-bottom: 16px;
+}
+.LoginForm .callout-box input[type="text"], .LoginForm .callout-box textarea, .LoginForm .callout-box input[type="password"] {
+    font-size: 18px;
+    line-height: 18px;
+    width: 94%;
+}
+.LoginForm .callout-box .switch-service {
+    border-top: 1px solid #D3D3D3;
+    color: #747474;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+#code{
+	width:180px;
+}

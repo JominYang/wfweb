@@ -1,0 +1,384 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    border-bottom: 1px solid #BDBDBD;
+    color: #3B3B3B;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 32px;
+    margin-bottom: 10px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-overflow: clip;
+    text-shadow: none;
+    text-transform: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ol, ul {
+    list-style: none outside none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+}
+html {
+    font-size: 100%;
+    overflow-y: scroll;
+}
+a {	
+	color: #0069D6;
+    font-weight: inherit;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:hover, a:active {
+    outline: 0 none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+audio, canvas, video {
+    display: inline-block;
+}
+audio:not([controls]) {
+    display: none;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+img {
+    border: 0 none;
+}
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+button, input {
+    line-height: normal;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+input[type="search"] {
+    -moz-box-sizing: content-box;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+body {
+    background-color:#EBEBEB;
+    color: #404040;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 0;
+	font-family: "Helvetica Neue","Luxi Sans","DejaVu Sans",Tahoma,"Hiragino Sans GB",STHeiti,"Microsoft YaHei",Arial,sans-serif;
+}
+p {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 9px;
+}
+
+
+
+.topbar {
+    background: none repeat scroll 0 0 #1C86D1;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.topbar-inner {
+    background-color: #1C86D1;
+    background-image: -moz-linear-gradient(center top , #1C8FDF, #1C86D1);
+    background-repeat: repeat-x;
+}
+
+
+.container:after {
+    clear: both;
+}
+.container:before, .container:after {
+    content: "";
+    display: table;
+}
+.container:before, .container:after {
+    content: "";
+    display: table;
+}
+.topbar-inner .container {
+    margin: 0 auto;
+    overflow: visible;
+    z-index: 50;
+}
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.topbar-inner .brand {
+    background: url("") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 25px;
+    margin: 12px 57px 0 0;
+    text-indent: -9999px;
+    width: 127px;
+	
+}
+
+.topbar ul.nav {
+    border-left: 1px solid #1979BC;
+    border-right: 1px solid #49A2E1;
+    float: left;
+}
+ol, ul {
+    list-style: none outside none;
+}
+.topbar ul.nav li {
+    float: left;
+}
+.topbar ul.nav li a {
+    border-left: 1px solid #2393E2;
+    border-right: 1px solid #1878BB;
+    color: #FFFFFF;
+    display: block;
+    float: none;
+    font-size: 14px;
+    line-height: 39px;
+    padding: 0 12px;
+    text-decoration: none;
+}
+.topbar ul.nav li a:hover {
+    background-color: #147bc2;
+}
+
+.nav .nav-selected a {
+    background-color: #0C6FB2;
+    border-left: 1px solid #0C619B;
+    border-right: 1px solid #0C619B;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25) inset;
+}
+
+.topbar .topbar-infomation {
+    float: right;
+    padding: 0;
+}
+.topbar-infomation > ul > li {
+    background: url("../img/inner-settings-container-sep.png") no-repeat scroll right center transparent;
+}
+.topbar-infomation ul li {
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    float: left;
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    position: relative;
+    z-index: 100;
+}
+.topbar .topbar-infomation .name {
+    color: #E7E8E9;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    line-height: 40px;
+}
+.topbar-infomation > ul > li:last-child {
+    background-image: none;
+}
+.topbar .topbar-infomation a {
+    margin: 0;
+}
+.topbar-infomation .account {
+    background: none repeat scroll 0 0 transparent;
+	color: #E7E8E9;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 40px;
+}
+.topbar-infomation > ul li a {
+    text-decoration: none;
+}
+.topbar-infomation > ul li:hover a {
+	color:#64686f;
+}
+.topbar-infomation > ul li:hover .icon_account_arrow {
+    background-position: -9px -211px;
+}
+.topbar-infomation > ul li:hover .settings-container {
+    display:block;
+}
+.topbar-infomation ul li.account_drop:hover {
+	background:none repeat scroll 0 0 #FFFFFF;
+	border-left:1px solid #D0D0D0;
+	border-right:1px solid #D0D0D0;
+}
+.icon_account_arrow {
+    background: url("../img/global_sprite.v2.png") no-repeat scroll -3px -19px transparent;
+    display: inline-block;
+    height: 8px;
+    width: 11px;
+}
+.icon_account_setting {
+    background: url("../img/global_sprite.v2.png") no-repeat scroll -57px -269px transparent;
+    display: inline-block;
+    float: left;
+    height: 18px;
+    margin: 6px 10px 6px 6px;
+    width: 18px;
+}
+.icon_account_switch {
+    background: url("../img/global_sprite.v2.png") no-repeat scroll -82px -311px transparent;
+    display: inline-block;
+    float: left;
+    height: 18px;
+    margin: 8px;
+    width: 18px;
+}
+.icon_account_exit {
+    background: url("../img/global_sprite.v2.png") no-repeat scroll -59px -311px transparent;
+    display: inline-block;
+    float: left;
+    height: 18px;
+    margin: 8px;
+    width: 18px;
+}
+
+
+.settings-container {
+	display:none;
+    position: absolute;
+    right: -8px;
+    top: 40px;
+}
+.settings-container > ul {
+    background: none repeat scroll 0 0 padding-box white;
+    border-bottom: 1px solid #D0D0D0;
+    border-left: 1px solid #D0D0D0;
+    border-right: 1px solid #D0D0D0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    margin-right: 7px;
+    min-width: 140px;
+    padding: 0;
+}
+.settings-container ul li {
+    border-bottom: 1px solid #E3E3E4;
+    clear: both;
+    color: #3366CC;
+    cursor: pointer;
+    display: block;
+    float: none;
+    height: 30px;
+    margin: 0;
+    padding: 5px;
+}
+.settings-container ul li a {
+    color: #1A6CC1;
+    display: block;
+    font-size: 13px;
+    height: 100%;
+    line-height: 32px;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+
+.sidebar {
+    float: left;
+    width: 185px;
+}
+#filter {
+    position: relative;
+}
+#filter ul li a {
+    color: #1A6CC1;
+    display: block;
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 8px;
+    text-decoration: none;
+}
+#filter ul li a:hover {
+	background-color:#E1E1E1;
+	text-decoration:none;
+	border-radius: 5px 5px 5px 5px;
+}
+#filter ul li.active a {
+    background: url("../img/global_sprite.v2.png") no-repeat scroll 140px -26px transparent;
+    color: #DD4B39;
+    font-weight: bold;
+    height: 35px;
+}
+.purchase #main {
+    border-left: 1px solid #E2E2E2;
+    margin-bottom: 30px;
+    margin-left: -1px;
+    overflow: hidden;
+}
+#main {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 1px solid #E2E2E2;
+    float: left;
+    padding-top : 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 770px;
+	height:500px;
+}
+footer {
+    border-top: 1px solid #E7E8E9;
+    padding: 20px;
+}
+
+footer p {
+    color: #979797;
+    font-size: 12px;
+    text-align: center;
+}
+#page-container{
+	background-color:#FFFFFF;
+	border-radius: 5px 5px 5px 5px;
+}
+
